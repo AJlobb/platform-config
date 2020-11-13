@@ -3,7 +3,7 @@ opsman-configuration:
     boot_disk_size: 100
     custom_cpu: 4
     custom_memory: 16
-    gcp_service_account: ((ops_manager_service_account_key)
+    gcp_service_account: ((ops_manager_service_account_key))
     project: pal4pe-1109b-alexander-lobb101
     public_ip: 34.69.129.71
     region: us-central1
