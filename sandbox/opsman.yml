@@ -1,0 +1,15 @@
+opsman-configuration:
+  gcp:
+    boot_disk_size: 100
+    custom_cpu: 4
+    custom_memory: 16
+    gcp_service_account: ((opsman-service-account-key))
+    project: pal4pe-1109b-alexander-lobb101
+    public_ip: 34.69.129.71
+    region: us-central1
+    ssh_public_key: |
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC/XlX7LnyEOoPwsvVLTFNwbQCI2GFVA2ljGjLZCYHlFxHxe3aEGiigH6pb71GINuheqJ+zlBIsWAXOgZ6ADLltHTBelQqCZse+FPL7hgeGxxJ5XBS6gTckm5sxg2Pgji2QVjwHPuZlMY3Kg3NaNSOjOB8dZkXDLjseyHGBtJdwWcTzOcN8r2dYS0nuczchyfi3btPmZGGu4yv+Mzg0xJ0rkcEFN0bF+lgdF7TbDmOhTmdMvnL5si4m+YntbDS60uI3sIe1wWgWlOfkXsIWl8f1p80jGV8iNgXrsg3KtDC0WQIfmHK3MdoI3zgzx/X5rXnrG7Z9iDLXjD6gC8g+Etdk30nvRzg8s1GoSO88J8m6R5QKYpn+sU48bkOH5PUl5lh2BQ22sgWRT3QnF1K8JpwAC/Ian6aGeXffrqPA8O9/Rg/tEEGHd25qsghP4BXIzBMZ4EAOZElal8eyNwYGIUWH4ogt2vKUoxs78DhmstA4WExvT9JU/2p1XTqlYQx5llswzycWhHKfqGIMPoiRPHLnW2Xyp/4AanV97uXx5AozCOA8v3u9Q88/kt6wSGdN1Hdxw3xNivU+LabRzG6WJCRZKk2TSnnwx2DL8D8VL+bXSHgopQrInFsVIo/B56GKk9CXSpbWKjX43DyX5iYAkxRW+HtWrZCT+l0LBs2DHnmgSw==
+    tags: learn-ops-manager
+    vm_name: learn-ops-manager-vm
+    vpc_subnet: learn-management-subnet
+    zone: us-central1-a
